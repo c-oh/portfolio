@@ -10,3 +10,39 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin tablet {
+	@media (min-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: $desktop) {
+		@content;
+	}
+}
+
+@mixin buttons {
+	border: 1px solid $color-cream;
+	padding: 10px;
+	border-radius: 2em;
+	color: $color-grey;
+	background-color: $color-cream;
+	text-transform: uppercase;
+	font-weight: 100;
+}

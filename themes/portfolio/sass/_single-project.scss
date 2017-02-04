@@ -8,25 +8,15 @@
             color: $color-blue;
         }
     }
-    @include desktop {
+    @include desktop{
         display: flex;
-        justify-content: space-between;
-        .sp-thumbnail {
-            width: 55%
-        }
-        .sp-info {
-        width: 40%;
-        
-        }
     }
+    
             .single-project-title {
                           text-align: center;
                 font: 2em $font__main;
                 margin: 0;
                 color: $color-blue;
-                @include desktop {
-                    text-align: left;
-                }
             }
         }
     
@@ -100,9 +90,6 @@
 /*----- Tabs -----*/
 .tabs {
     padding-bottom: 50px;
-    @include desktop {
-        padding-bottom: 0;
-    }
     
     p {
         word-wrap: break-word;
@@ -176,7 +163,5 @@ li.active a:hover {
 
 .site-mainsproject{
   height: 650px;
-  @include desktop{
-      height: 356px;
-  }
+  
 }
