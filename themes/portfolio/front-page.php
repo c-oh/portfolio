@@ -14,6 +14,7 @@ get_header(); ?>
     </section>
 
     <section class="Works">
+    <h3> projects</h3>
     <div class="verticalline">
  This is a vertical line
 </div>
@@ -38,6 +39,15 @@ get_header(); ?>
 </form>
     </section>
 
+<section class="social">
+<h3>follow me</h3>
+<div class="verticalline">
+ This is a vertical line
+</div>
+
+</section>
+   
+   
     <section class="contact">
     <div class="verticalline">
  This is a vertical line
