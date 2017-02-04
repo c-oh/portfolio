@@ -6,6 +6,7 @@
 get_header(); ?>
   <section class="front-content">
    <section class= "welcome-video">
+   <h1> Holly Cheng <br> <span>is a web developer</span></h1>
      </section>
       
     
