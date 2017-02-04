@@ -29,9 +29,13 @@ get_header(); ?>
     </section>
 
     <section class="resume">
+    <h3> resume </h3>
 <div class="verticalline">
  This is a vertical line
 </div>
+<form method="get" action="file.doc">
+<button type="submit">Download!</button>
+</form>
     </section>
 
     <section class="contact">
